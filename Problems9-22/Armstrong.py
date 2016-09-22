@@ -41,8 +41,10 @@ while True:
 
     if range_start < 0 or range_end < 0:
         print("Enter positive integers for your interval.")
+        continue
     if range_end < range_start:
         print("Enter an interval where end > start.")
+        continue
 
     for i in range(range_start, range_end + 1):
         if is_armstrong(str(i)):
