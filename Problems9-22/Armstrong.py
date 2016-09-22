@@ -11,7 +11,6 @@ from math import pow
 
 
 def is_armstrong(number):
-
     total = 0
     for digit in number:
         total += int(digit)**3
