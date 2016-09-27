@@ -1,10 +1,10 @@
 """
-Write a python code to print Armstrong number in a given interval. An Armstrong
-number is a number that is equal to the sum of the cubes of its own digits. For
-example 371 is an Armstrong number as 371 = 3*3*3 + 7*7*7 +1*1*1. The user will
-have to enter an interval and the program should display all the Armstrong
-numbers within that interval.The program should terminate when user gives the
-range as 0.
+Write a python code to print Armstrong number in a given interval. An
+Armstrong number is a number that is equal to the sum of the cubes of
+its own digits. For example 371 is an Armstrong number as
+371 = 3*3*3 + 7*7*7 +1*1*1. The user will have to enter an interval and
+the program should display all the Armstrong numbers within that
+interval.The program should terminate when user gives the range as 0.
 """
 
 
@@ -22,7 +22,8 @@ def is_armstrong(number):
 # main
 while True:
     try:
-        range_start = int(input("Enter the start of your interval, 0 to exit:"))
+        range_start = int(input(
+                '''Enter the start of your interval, 0 to exit: '''))
         if range_start == 0:
             break
         range_end = int(input("Enter end of your interval:"))

@@ -1,9 +1,9 @@
 """
-Write a python code to check whether a given number is prime or not. If a number
-is prime then it should print Prime and if the number is not prime it should
-print Not Prime. Prime numbers are numbers that are only divisible by 1 and
-itself. Make a note that 1 is not a prime number. This program should terminate
-when the user gives an input as 0.
+Write a python code to check whether a given number is prime or not. If a
+number is prime then it should print Prime and if the number is not prime
+it should print Not Prime. Prime numbers are numbers that are only
+divisible by 1 and itself. Make a note that 1 is not a prime number. This
+program should terminate when the user gives an input as 0.
 """
 
 
