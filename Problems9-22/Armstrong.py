@@ -7,8 +7,6 @@ numbers within that interval.The program should terminate when user gives the
 range as 0.
 """
 
-from math import pow
-
 
 def is_armstrong(number):
     total = 0
