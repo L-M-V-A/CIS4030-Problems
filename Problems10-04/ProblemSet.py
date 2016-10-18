@@ -10,7 +10,7 @@
 # print(out_list) # [4, 2, 6, 8, 3, 1, 7]
 
 
-def rearrange_even_odd(L)
+def rearrange_even_odd(L):
     evens = [x for x in L if x % 2 == 0]
     odds = [x for x in L if x % 2 != 0]
     return evens + odds
